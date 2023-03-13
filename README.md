@@ -16,11 +16,11 @@
 
 [万字长文，教你用go开发区块链应用](https://mp.weixin.qq.com/s/yDmGwfRjXxDJfgv1d0p3Ig)
 
-[Istio 系列篇二 | Istio 的安装以及入门使用](https://mp.weixin.qq.com/s/DqZkK8in4XXUTMen16K1hg)
+[Istio 系列篇二 \| Istio 的安装以及入门使用](https://mp.weixin.qq.com/s/DqZkK8in4XXUTMen16K1hg)
 
 [无法拉取 gcr.io 镜像？用魔法来打败魔法](https://mp.weixin.qq.com/s/Vt0FRTx1PsoYFdLa0QZzWw)
 
-[Istio 系列篇一 | 服务网格和 Istio](https://mp.weixin.qq.com/s/gJA0sgNPwY95H8vyjjCIUw)
+[Istio 系列篇一 \| 服务网格和 Istio](https://mp.weixin.qq.com/s/gJA0sgNPwY95H8vyjjCIUw)
 
 [身份即服务背后的基石](https://mp.weixin.qq.com/s/gbHCVlwzu29JJN9wInaW0Q)
 
