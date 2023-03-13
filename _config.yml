@@ -1,7 +1,2 @@
-title      : gopher云原生
+title      : gopher云原生的文章索引
 lang       : zh
-description: 文章发布于微信公众号：gopher云原生。本站为索引
-
-nav:
- - name: GitHub
-   link: https://github.com/togettoyou
