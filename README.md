@@ -1,6 +1,7 @@
 ---
 layout: default
 title: ""
+permalink: /
 ---
 
 ## 关于我
