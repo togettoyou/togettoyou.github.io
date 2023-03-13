@@ -1,10 +1,10 @@
 ## 关于我
 
 - Email ：zoujh99@qq.com
-- GitHub ：https://github.com/togettoyou
-- 微信公众号 ：
+- GitHub ：[https://github.com/togettoyou](https://github.com/togettoyou)
+- 微信公众号 ：gopher云原生
 
-![微信公众号](https://user-images.githubusercontent.com/55381228/224645371-85fa0552-108b-4648-8dc8-79663c09fd34.png)
+<img src="https://user-images.githubusercontent.com/55381228/224645371-85fa0552-108b-4648-8dc8-79663c09fd34.png" width="300px">
 
 ## 文章索引
 
