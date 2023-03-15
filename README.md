@@ -4,17 +4,11 @@ title: gopher云原生的文章索引
 permalink: /
 ---
 
-<details><summary>关于我</summary>
-<p>
-
 - Email ：zoujh99@qq.com
 - GitHub ：[https://github.com/togettoyou](https://github.com/togettoyou)
 - 微信公众号 ：gopher云原生
 
 <img src="https://user-images.githubusercontent.com/55381228/224645371-85fa0552-108b-4648-8dc8-79663c09fd34.png" width="300px">
-
-</p>
-</details>
 
 [使用 Linux 网络虚拟化技术探究容器网络原理](https://mp.weixin.qq.com/s/aXotIih1RkpyDTaokJjGPw)
 
