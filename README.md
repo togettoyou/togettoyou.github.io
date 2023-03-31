@@ -18,6 +18,8 @@ permalink: /
 
 </details><p></p>
 
+[Kubernetes Pod 实现原理](https://mp.weixin.qq.com/s/b8Ohs8Z-HRMajAas1GkTvg)
+
 [使用 Linux 网络虚拟化技术探究容器网络原理](https://mp.weixin.qq.com/s/aXotIih1RkpyDTaokJjGPw)
 
 [Istio Sidecar 注入原理及其实现](https://mp.weixin.qq.com/s/XABVBH29GQX2ABdfIlKrnw)
