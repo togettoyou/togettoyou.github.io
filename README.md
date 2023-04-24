@@ -18,6 +18,8 @@ permalink: /
 
 </details><p></p>
 
+[SeaweedFS 分布式文件系统源码分析](https://mp.weixin.qq.com/s/apkJ1fG7jwdlC6D4KH0Dkw)
+
 [Kubernetes Pod 实现原理](https://mp.weixin.qq.com/s/b8Ohs8Z-HRMajAas1GkTvg)
 
 [使用 Linux 网络虚拟化技术探究容器网络原理](https://mp.weixin.qq.com/s/aXotIih1RkpyDTaokJjGPw)
