@@ -18,6 +18,10 @@ permalink: /
 
 </details><p></p>
 
+[第2回：kube-apiserver 三种 HTTP Server 的初始化](https://mp.weixin.qq.com/s/q5lS_NJrCzZ3EtCGUEXpBw)
+
+[第1回：kube-apiserver 启动及前期调试准备](https://mp.weixin.qq.com/s/eSFkynovoluCLqhNUxR2uw)
+
 [SeaweedFS 分布式文件系统源码分析](https://mp.weixin.qq.com/s/apkJ1fG7jwdlC6D4KH0Dkw)
 
 [Kubernetes Pod 实现原理](https://mp.weixin.qq.com/s/b8Ohs8Z-HRMajAas1GkTvg)
