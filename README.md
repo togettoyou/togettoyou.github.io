@@ -18,6 +18,8 @@ permalink: /
 
 </details><p></p>
 
+[第4回：KubeAPIServer 的存储接口实现](https://mp.weixin.qq.com/s/L0DI_w-dVWxiHoSBnPUUtg)
+
 [第3回：KubeAPIServer 的路由注册](https://mp.weixin.qq.com/s/mbbNEnx_yhJKlzu3TvLh4A)
 
 [第2回：kube-apiserver 三种 HTTP Server 的初始化](https://mp.weixin.qq.com/s/q5lS_NJrCzZ3EtCGUEXpBw)
