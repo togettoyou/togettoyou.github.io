@@ -18,6 +18,10 @@ permalink: /
 
 </details><p></p>
 
+[第6回：kube-apiserver handler 处理流程](https://mp.weixin.qq.com/s/irzVgyCguwJUfOcoM4jUPg)
+
+[第5回：kube-apiserver 启动 HTTP Server](https://mp.weixin.qq.com/s/r61a2Jg7IgPqgZme05VUwQ)
+
 [第4回：KubeAPIServer 的存储接口实现](https://mp.weixin.qq.com/s/L0DI_w-dVWxiHoSBnPUUtg)
 
 [第3回：KubeAPIServer 的路由注册](https://mp.weixin.qq.com/s/mbbNEnx_yhJKlzu3TvLh4A)
