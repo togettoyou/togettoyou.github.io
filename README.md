@@ -18,6 +18,8 @@ permalink: /
 
 </details><p></p>
 
+[第7回：kube-apiserver API 认证和鉴权](https://mp.weixin.qq.com/s/H61V0hmWZTt7tFDL-vXG2Q)
+
 [第6回：kube-apiserver handler 处理流程](https://mp.weixin.qq.com/s/irzVgyCguwJUfOcoM4jUPg)
 
 [第5回：kube-apiserver 启动 HTTP Server](https://mp.weixin.qq.com/s/r61a2Jg7IgPqgZme05VUwQ)
