@@ -18,6 +18,8 @@ permalink: /
 
 </details><p></p>
 
+[第9回：kube-apiserver 准入 Webhook](https://mp.weixin.qq.com/s/uFrxQOX4C8SFH01Ys2H8Wg)
+
 [第8回：kube-apiserver API 准入控制](https://mp.weixin.qq.com/s/tosna4E1DV5VriP0IkMqgQ)
 
 [第7回：kube-apiserver API 认证和鉴权](https://mp.weixin.qq.com/s/H61V0hmWZTt7tFDL-vXG2Q)
