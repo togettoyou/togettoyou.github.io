@@ -18,6 +18,8 @@ permalink: /
 
 </details><p></p>
 
+[第11回：client-go 四种客户端](https://mp.weixin.qq.com/s/WHRVAVARxnWqU47Y9ydcrA)
+
 [第10回：kube-apiserver 初始命名空间](https://mp.weixin.qq.com/s/LeReUQqYbAnC3xxcdiHG_w)
 
 [第9回：kube-apiserver 准入 Webhook](https://mp.weixin.qq.com/s/uFrxQOX4C8SFH01Ys2H8Wg)
