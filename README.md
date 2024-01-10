@@ -18,6 +18,8 @@ permalink: /
 
 </details><p></p>
 
+[第13回：kube-scheduler 启动及前期调试准备](https://mp.weixin.qq.com/s/E_mKZgjLIHkQskcX9cirAQ)
+
 [第12回：client-go 的 Informer 机制](https://mp.weixin.qq.com/s/zWEwwNcKBNiC01kmVZbj8Q)
 
 [第11回：client-go 四种客户端](https://mp.weixin.qq.com/s/WHRVAVARxnWqU47Y9ydcrA)
