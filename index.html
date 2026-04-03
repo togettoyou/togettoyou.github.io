@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>togettoyou</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #f6f8fa;
+      --bg-card: #ffffff;
+      --bg-card-hover: #f0f6ff;
+      --border: #d0d7de;
+      --border-hover: #0969da;
+      --text-primary: #1f2328;
+      --text-secondary: #636c76;
+      --accent: #0969da;
+      --tag-bg: #ddf4ff;
+      --tag-text: #0550ae;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text-primary);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      padding: 48px 24px 32px;
+      text-align: center;
+      border-bottom: 1px solid var(--border);
+    }
+
+    header h1 {
+      font-size: 1.75rem;
+      font-weight: 600;
+      letter-spacing: -0.5px;
+    }
+
+    header h1 span {
+      color: var(--accent);
+    }
+
+    header p {
+      margin-top: 8px;
+      color: var(--text-secondary);
+      font-size: 0.95rem;
+    }
+
+    main {
+      flex: 1;
+      max-width: 960px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 40px 24px;
+    }
+
+    .section-title {
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--text-secondary);
+      margin-bottom: 16px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 16px;
+    }
+
+    .card {
+      display: flex;
+      flex-direction: column;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 20px;
+      text-decoration: none;
+      color: inherit;
+      transition: border-color 0.15s, background 0.15s, transform 0.15s;
+      cursor: pointer;
+    }
+
+    .card:hover {
+      border-color: var(--border-hover);
+      background: var(--bg-card-hover);
+      transform: translateY(-2px);
+    }
+
+    .card-icon {
+      font-size: 1.5rem;
+      margin-bottom: 12px;
+      line-height: 1;
+    }
+
+    .card-title {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--accent);
+      margin-bottom: 6px;
+    }
+
+    .card-desc {
+      font-size: 0.875rem;
+      color: var(--text-secondary);
+      line-height: 1.5;
+      flex: 1;
+    }
+
+    .card-footer {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-top: 16px;
+      flex-wrap: wrap;
+    }
+
+    .tag {
+      font-size: 0.75rem;
+      padding: 2px 8px;
+      border-radius: 20px;
+      background: var(--tag-bg);
+      color: var(--tag-text);
+      font-weight: 500;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px;
+      border-top: 1px solid var(--border);
+      color: var(--text-secondary);
+      font-size: 0.8rem;
+      overflow: visible;
+    }
+
+    footer a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    .wechat-wrap {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      cursor: pointer;
+      position: relative;
+    }
+
+    .wechat-wrap svg {
+      color: #07c160;
+      flex-shrink: 0;
+    }
+
+    .wechat-label {
+      color: var(--text-secondary);
+    }
+
+    .wechat-qr {
+      display: none;
+      position: absolute;
+      bottom: calc(100% + 12px);
+      left: 50%;
+      transform: translateX(-50%);
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 12px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+      white-space: nowrap;
+    }
+
+    .wechat-qr img {
+      display: block;
+      width: 200px;
+      height: auto;
+      border-radius: 4px;
+    }
+
+    .wechat-qr p {
+      margin-top: 8px;
+      font-size: 0.75rem;
+      color: var(--text-secondary);
+      text-align: center;
+    }
+
+    .wechat-wrap:hover .wechat-qr {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1><a href="https://github.com/togettoyou" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">@<span>togettoyou</span></a></h1>
+  <p>Personal knowledge base &amp; project index</p>
+</header>
+
+<main>
+  <p class="section-title">Projects</p>
+  <div class="grid" id="grid"></div>
+</main>
+
+<footer>
+  <div style="display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;">
+    <a href="https://github.com/togettoyou" target="_blank" rel="noopener">github.com/togettoyou</a>
+    <span style="color:var(--border)">|</span>
+    <div class="wechat-wrap">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path d="M8.5 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm5-1a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM2 9.5C2 5.91 6.48 3 12 3s10 2.91 10 6.5c0 3.58-4.48 6.5-10 6.5-.78 0-1.54-.07-2.26-.2L6 18v-3.08C3.61 13.66 2 11.7 2 9.5zm13.5 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3-1a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+      </svg>
+      <span class="wechat-label">微信公众号：gopher的Infra修行</span>
+      <div class="wechat-qr">
+        <img src="https://github.com/user-attachments/assets/df5cfc9a-a33e-4471-83b5-e3e3999d0530" alt="微信公众号二维码" />
+        <p>扫码关注</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  const projects = [
+    {
+      icon: "☸️",
+      title: "kubernetes-src-notes",
+      desc: "Kubernetes 源码阅读笔记，深入剖析核心组件实现原理。",
+      url: "https://togettoyou.github.io/kubernetes-src-notes/",
+      tags: ["Kubernetes", "Go", "源码分析"],
+    },
+    // 在这里添加新项目
+  ];
+
+  const grid = document.getElementById("grid");
+
+  projects.forEach(p => {
+    const a = document.createElement("a");
+    a.className = "card";
+    a.href = p.url;
+    a.target = "_blank";
+    a.rel = "noopener";
+    a.innerHTML = `
+      <div class="card-icon">${p.icon}</div>
+      <div class="card-title">${p.title}</div>
+      <div class="card-desc">${p.desc}</div>
+      <div class="card-footer">
+        ${p.tags.map(t => `<span class="tag">${t}</span>`).join("")}
+      </div>
+    `;
+    grid.appendChild(a);
+  });
+</script>
+
+</body>
+</html>
